@@ -31,12 +31,13 @@ public class MonthlyBudget{
       
         
 
-        calculateExpenses(budget,rent, insurance, groceries, petrol, electric, gas, subscriptions, savings);
+        calculateExpenses(budget, rent, insurance, groceries, petrol, subscriptions, electric, gas, savings);
 
         System.out.print("Do you want to repeat the process? (1 for yes 0 for no.)");
         repeat = scanner.nextInt();
-        scanner.close();
+        
         }
+        scanner.close();
         
 
     
